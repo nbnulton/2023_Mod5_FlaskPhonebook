@@ -2,10 +2,10 @@ from flask import Flask
 #import class Config from config.py
 from config import Config
 # pulling from the routes.py
-from.site.routes import site
+from .site.routes import site
 #import authentication
-from.authentication.routes import auth
-from.api.routes import api
+from .authentication.routes import auth
+from .api.routes import api
 
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
